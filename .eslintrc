@@ -1,6 +1,0 @@
-{
-    "extends": "aqua/node",
-    "rules": {
-        "valid-jsdoc": "off"
-    }
-}

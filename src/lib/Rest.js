@@ -55,6 +55,11 @@ class Rest {
 			}
 		}).then(r => r.json());
 
+		try {
+			this.node.andesite.addSongInfo(response.tracks);
+		} catch (e) { }
+
+
 		switch (response.loadType) {
 			case 'TRACK_LOADED':
 			case 'SEARCH_RESULT':

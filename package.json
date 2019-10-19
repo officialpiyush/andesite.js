@@ -1,6 +1,6 @@
 {
   "name": "andesite.js",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "An wrapper around Andesite Node ",
   "main": "src/index.js",
   "scripts": {

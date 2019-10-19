@@ -22,7 +22,7 @@ class Node {
 
 		this.ws = new ws(`ws://${this.config.host}/websocket`, {
 			headers: {
-				'Authorization': config.password,
+				'Authorization': config.password ? config.password : null,
 				'User-Id': config.id
 			}
 		});
